@@ -2,27 +2,124 @@
 <html lang="it">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
         <title>Chiara e Lorenzo</title>
         
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 
         <!-- CSS -->
         <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+        <link href="css/styles.css" rel="stylesheet" />
 
         <!-- SCRIPTS -->
         <script src="js/bootstrap/bootstrap.min.js" ></script>
+        <script src="js/scripts.js" ></script>
 
     </head>
     <body id="page-top">
-        <div class="container">
-            <div class="row m-4">
-                <h1>Chiara e Lorenzo - 18 settembre 2022</h1>
-                <p>Ciao! <span> 👋 </span> Questo sito è ancora in costruzione <span>🚧</span>, i lavori riprenderanno dopo la mia laurea!</p>
-                <p>Non preoccupatevi, sarete aggiornati per tempo! <span> 😉 </span></p>
-                <p>Grazie, vi vogliamo bene!</p>
-                <p class="text-end">Chiara e Lorenzo</p>
+        
+        <!-- Navigation-->
+        <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="vai a inizio pagina" /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div id="navbarResponsive" class="collapse navbar-collapse">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#ceremony">Cerimonia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sermig">Sermig</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
+        
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 testwallpaper">
+                        <div class="masthead-subheading">CIAONE</div>
+                        <div class="masthead-heading">CIAONE 2!</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="masthead-subheading">Lorenzo e Chiara</div>
+                        <div class="masthead-heading">Annunciano il loro matrimonio!</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Ceremony-->
+        <section id="ceremony" class="page-section">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Cerimonia</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-solid fa-calendar-day fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Quando?</h4>
+                        <p class="text-muted"><b>18 settembre 2022</b>, alle <b>15:30</b></p>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-solid fa-map-location-dot fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Dove?</h4>
+                        <p class="text-muted">Chiesa <b>"Maria madre dei Giovani"</b> all'interno del <b>Sermig - Arsenale della Pace</b></p>
+                        <p class="text-muted"><b>chiedere all'ingresso le indicazioni per la chiesa</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Place -->
+        <section id="sermig" class="page-section bg-light">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Sermig - Arsenale della Pace</h2>
+                    <h3 class="section-subheading text-muted">Piazza Borgo Dora, 61, 10152, Torino (TO), Italia</h3>
+                </div>
+                <div class="row">
+                    <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41735.24636878099!2d7.657246359066881!3d45.08001226888711!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x74e685efbd2823c2!2sSermig%20Arsenale%20della%20Pace!5e0!3m2!1sit!2sit!4v1655032518145!5m2!1sit!2sit" 
+                            frameborder="0"
+                            style="border:0" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright © 2022 Start Bootstrap and Lorenzo Tabasso</div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
