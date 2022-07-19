@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: gothamLight;
+  src: url("../assets/fonts/gothamRounded/GothamRnd-Light.otf");
+}
+
+@font-face {
+  font-family: baksoSapi;
+  src: url("../assets/fonts/BaksoSapi.otf") format("opentype");
+}
+
 .custom-light-red {
   --bs-text-opacity: 1;
   --bs-light-red: 229, 64, 34;
@@ -17,6 +27,18 @@
 
 #caricature {
   width: 100%;
+}
+
+h2 {
+  font-family: baksoSapi;
+}
+
+.navbar-brand {
+  font-family: baksoSapi;
+}
+
+h6 {
+  font-family: gothamLight;
 }
 
 .map-container {
