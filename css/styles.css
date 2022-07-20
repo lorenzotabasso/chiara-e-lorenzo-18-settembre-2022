@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: gotham;
-  src: url("../assets/fonts/gothamRounded/GothamRnd-light.otf") format("opentype");
+  src: url("../assets/fonts/gothamRounded/GothamRnd-Light.otf") format("opentype");
 }
 
 .custom-light-red {
