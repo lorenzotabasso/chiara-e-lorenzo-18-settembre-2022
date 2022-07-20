@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: baksoSapi;
+  src: url("../assets/fonts/BaksoSapi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: gotham;
+  src: url("../assets/fonts/gothamRounded/GothamRnd-light.otf");
+}
+
+.custom-light-red {
+  --bs-text-opacity: 1;
+  --bs-light-red: 229, 64, 34; /* RGB code: #e54022; */
+  color: rgba(var(--bs-light-red), var(--bs-text-opacity)) !important;
+}
+
+#ourCaricature {
+  width: 80%;
+}
+
+#sermigCaricature {
+  width: 90%;
+}
+
+h1, h2, h4, .navbar-brand {
+  font-family: baksoSapi;
+}
+
+h5 {
+  font-family: gotham;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+}
