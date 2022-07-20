@@ -25,7 +25,11 @@
   color: #2e3532;
 }
 
-#caricature {
+#ourCaricature {
+  width: 100%;
+}
+
+#sermigCaricature {
   width: 100%;
 }
 
